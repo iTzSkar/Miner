@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const 1 = new Discord.Client();
-const 2 = new Discord.Client();
+const client1 = new Discord.Client();
+const client2 = new Discord.Client();
 
 console.log("Welcome Savage.");
  
@@ -14,7 +14,7 @@ var channel = "510408873765634058";
 })
 
 
-1.on('ready', async() => {
+client1.on('ready', async() => {
 var server = "510406975654330368"; 
 var channel = "510408873765634058";
     setInterval(()=>{
@@ -22,7 +22,7 @@ var channel = "510408873765634058";
     },305);
 })
 
-2.on('ready', async() => {
+client2.on('ready', async() => {
 var server = "510406975654330368"; 
 var channel = "510408873765634058";
     setInterval(()=>{
@@ -32,5 +32,5 @@ var channel = "510408873765634058";
 
 
 client.login(process.env.BOT_TOKEN);
-1.login(process.env.BOT_TOKEN1);
-2.login(process.env.BOT_TOKEN2);
+client1.login(process.env.BOT_TOKEN1);
+client2.login(process.env.BOT_TOKEN2);
