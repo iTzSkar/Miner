@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const client1 = new Discord.Client();
 const client2 = new Discord.Client();
 
-console.log("Welcome Savage.");
+console.log("Welcome Savage..");
  
 client.on('ready', async() => {
 var server = "510406975654330368"; 
